@@ -1,17 +1,30 @@
-# testing
+# Flutter Demo
 
-A new Flutter project.
+A simple app for testing
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+- Flutter SDK (3.47.5 or later)
+- Google Chrome
+- Git
 
-A few resources to get you started if this is your first Flutter project:
+## How to run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Clone the repository:
+```
+   git clone https://github.com/faaaarii/flutterdemo.git
+```
+2. Go into the folder:
+```
+   cd flutterdemo
+```
+3. Install dependencies:
+```
+   flutter pub get
+```
+4. Run the app in Chrome:
+```
+   flutter run -d chrome
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To stop the app, press `q` in the terminal.
