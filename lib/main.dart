@@ -4,7 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-// The main app: sets the title and colours
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Demo App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorSchemeSeed: const Color(0xFF5B0015), // maroon
+        colorSchemeSeed: const Color(0xFF5B0015), 
         useMaterial3: true,
       ),
       home: const HomePage(),
